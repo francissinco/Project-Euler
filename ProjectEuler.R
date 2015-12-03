@@ -78,7 +78,8 @@ for (i in upper_bound:1) {
   Num <- ifelse(Num %% i == 0, Num, (Num*i)/GCD(Num, i))
 }
 
-Num
+#Least natural number that is divisible by all of 1:upper_bound
+Num 
 
 
 
