@@ -49,7 +49,7 @@ upper_bound <- 20
 
 ### GCD ###
 GCD <- function(x, y) {
-  if(all(ceiling(c(x, y)) == c(x, y))) { #floor(x, y) can also be used
+  if(all(ceiling(c(x, y)) == c(x, y))) { #floor(x, y) can also be used since "x int IFF ceiling(x) == x == floor(x)"
     x <- abs(x)
     y <- abs(y)
     if(all(c(x,y) == 0)) {
