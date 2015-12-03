@@ -40,7 +40,7 @@ sum <- sum(Fib[Fib %% 2 == 0])
 
 ### PROBLEM 5
 
-
+########### CODE ##########
 start <- Sys.time()
 
 
@@ -85,3 +85,20 @@ Num
 
 end <- Sys.time() - start
 end
+
+
+
+
+
+########## ANSWER ##########
+
+> Num
+[1] 232792560
+
+
+
+########## RUN TIME #########
+
+> end <- Sys.time() - start
+> end
+Time difference of 13.073 secs
